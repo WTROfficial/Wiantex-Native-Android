@@ -81,3 +81,7 @@ buildConfigField("String", "API_BASE_URL", "\"https://www.wiantex.com/\"")
 ```
 
 Test subdomaini kullanacaksan yalnızca bu değeri değiştir.
+
+## Build compatibility
+
+This project pins Jetpack Compose BOM to `2026.06.00` so the app remains compatible with `compileSdk = 36`. Compose 1.12 / BOM 2026.08.00 requires API 37.
