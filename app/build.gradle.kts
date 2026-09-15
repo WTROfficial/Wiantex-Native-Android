@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "com.wiantex.app"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.wiantex.app"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0.0"
 
